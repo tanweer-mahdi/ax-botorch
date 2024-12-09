@@ -1,0 +1,17 @@
+[project]
+name = "ax-botorch"
+version = "0.1.0"
+description = "Exploration and Exploitation of BoTorch and Ax"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ax-platform>=0.4.3",
+    "botorch>=0.12.0",
+    "numpy<2",
+    "torch<2.3.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
